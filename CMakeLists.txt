@@ -72,3 +72,6 @@ add_subdirectory(lint)
 add_subdirectory(language/pl0)
 add_subdirectory(language/culebra)
 endif()
+
+# SNICHOLS: adding basic header install
+install(FILES peglib.h DESTINATION include/peglib)
